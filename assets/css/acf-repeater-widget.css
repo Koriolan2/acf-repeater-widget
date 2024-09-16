@@ -1,0 +1,44 @@
+.acf-repeater-widget ol {
+    list-style: none; /* Вимкнення стандартної нумерації */
+    padding-left: 0;
+}
+
+.acf-repeater-widget ol li {
+    display: flex;
+    align-items: center; /* Вертикальне вирівнювання */
+   
+}
+
+.acf-repeater-widget ol li .number-shape {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; /* Висота для вирівнювання тексту по центру */
+    text-align: center; /* Горизонтальне вирівнювання тексту в фігурі */
+    font-weight: bold; /* Товщина шрифту для нумерації */
+    margin-right: 15px; /* Стандартний відступ між нумерацією і текстом */
+    color: #fff; /* Колір тексту всередині нумерації */
+    background-color: #000; /* Фон нумерації */
+}
+
+.acf-repeater-widget ol li .number-circle {
+    border-radius: 50%; /* Кругла форма */
+}
+
+.acf-repeater-widget ol li .number-square {
+    border-radius: 0; /* Квадратна форма */
+}
+
+.acf-repeater-widget ol li .number-rounded {
+    border-radius: 10px; /* Заокруглена форма */
+}
+
+.acf-repeater-widget ol li .list-item-text {
+    flex: 1; /* Текст займає весь доступний простір */
+    /* color: #333; Колір тексту за замовчуванням */
+    align-items:center;
+}
+
+.acf-repeater-widget ol li .list-item-text p {
+    margin:0!important;
+}
